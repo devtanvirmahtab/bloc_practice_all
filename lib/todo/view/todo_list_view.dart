@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class TodoListView extends StatefulWidget {
@@ -24,7 +23,7 @@ class _TodoListViewState extends State<TodoListView> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
+        onPressed: () {},
         child: const Icon(Icons.add),
       ),
     );
